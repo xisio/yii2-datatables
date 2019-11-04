@@ -1,0 +1,28 @@
+{
+	"name": "xisio/yii2-datatable",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Denis Warsow",
+			"email": "stdedjub@googlemail.com"
+		}
+	],
+	"require": {
+		"npm-asset/jquery" : "3.4.1",
+		"npm-asset/datatables" : "1.10"
+	},
+
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"xisio\\datatables\\" : "src/"
+		}
+	}
+
+}
