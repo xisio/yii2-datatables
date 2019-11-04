@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85f4967133328139d46b582220c9bee1",
+    "packages": [
+        {
+            "name": "npm-asset/datatables",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:DataTables/DataTables.git",
+                "reference": "4feb8959d534cf38d179af881211891980d7a8d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/4feb8959d534cf38d179af881211891980d7a8d3",
+                "reference": "4feb8959d534cf38d179af881211891980d7a8d3"
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.7"
+            },
+            "type": "npm-asset"
+        },
+        {
+            "name": "npm-asset/jquery",
+            "version": "3.4.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
